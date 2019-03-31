@@ -1,0 +1,20 @@
+travels = ['shanghai','guilin','xizang','taiguo','riben']
+print(travels)
+#临时排序
+print(sorted(travels))
+print(travels)
+#临时倒序排列
+print(sorted(travels,reverse=True))
+print(travels)
+#反转列表
+travels.reverse()
+print(travels)
+#再次反转列表
+travels.reverse()
+print(travels)
+#列表排序
+travels.sort()
+print(travels)
+#列表排序
+travels.sort(reverse=True)
+print(travels)

@@ -12,6 +12,7 @@ guests.insert(2,"laoba")
 guests.append("huangshang")
 guest_form = '嘉宾名单（最新）'
 print(guest_form+','.join(guests))
+print('总共邀请了'+str(len(guests))+'个嘉宾')
 print('不好意思桌子没有到,现在只能邀请两个人')
 print('不好意思'+guests.pop()+'不能邀请你去了')
 print('不好意思'+guests.pop()+'不能邀请你去了')
